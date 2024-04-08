@@ -456,6 +456,106 @@
             </div>            
         </section>
 
+        <section class="resume">
+            <div class="container">
+                <div class="mt-5 mb-3">
+                    <label for="resumeHistory" class="form-label fw-bold">Breve Resumo da História</label>
+                    <textarea class="form-control" id="resumeHistory" maxlength="700"></textarea>
+                </div>
+            </div>
+        </section>
+
+        <section class="typeHistory">
+            <div class="container">
+                <div class="col-md-12 mt-5">
+                    <h3>Tipo da história</h3>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="fizSenac" value="Fiz Senac!">
+                        <label class="form-check-label" for="fizSenac">Fiz Senac!</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="carrerTransition" value="Transição de Carreira">
+                        <label class="form-check-label" for="carrerTransition">Transição de Carreira</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="collective" value="Coletividade">
+                        <label class="form-check-label" for="collective">Coletividade</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="empreenda" value="Empreenda">
+                        <label class="form-check-label" for="empreenda">Empreenda</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="timeAccomplish" value="Tempo de Realizar">
+                        <label class="form-check-label" for="timeAccomplish">Tempo de Realizar</label>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="statusLinkOutros my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="status" class="form-label">Status</label>
+                        <select id="status" class="form-select" aria-label="Status">
+                            <option selected>Selecione um dos itens</option>
+                            <option value="Apurado">Apurado</option>
+                            <option value="Publicado">Publicado</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="linkHistory" class="form-label">Link da História no Blog</label>
+                        <input type="url" class="form-control" id="linkHistory" placeholder="https://sp.senac.br/blog/um-programador-de-sucesso/">
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Outros Usos</h4>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="impresa" value="impresa">
+                            <label class="form-check-label" for="impresa">Impresa</label>
+                        </div>
+                        
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="campanhas" value="campanhas">
+                            <label class="form-check-label" for="campanhas">Campanhas</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="midias">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-md-6">
+                        <h4>Mídias</h4>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="photo" value="Foto">
+                            <label class="form-check-label" for="photo">Foto</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="video" value="Vídeo">
+                            <label class="form-check-label" for="video">Vídeo</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="audio" value="Áudio">
+                            <label class="form-check-label" for="audio">Áudio</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Upload de Arquivos</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
                 <li class="page-item disabled">

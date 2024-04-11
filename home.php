@@ -1,60 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt_br" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senac na Minha História</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://icons.getbootstrap.com/assets/font/bootstrap-icons.min.css">
 </head>
-<body>
-    <header class="container-fluid">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="cadastrar.php">Cadastrar</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-            </form>
-            </div>
-        </div>
-    </nav>
-    </header>
+<body class="d-flex flex-column">
+    <?php include('header.php')?>
 
-    <main>
-        <section class="container breadcrumbs">
-            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Library</li>
-                </ol>
-            </nav>
-        </section>
+    <main class="flex-shrink-0 h-100">
+        <?php include ('breadcrumb.php')?>
 
         <section class="container sampleTable">
             <table class="table table-striped">
@@ -84,8 +42,8 @@
                         <td>Pagante</td>
                         <td>Publicado no Blog</td>
                         <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i> Editar</button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Excluir</button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                         </td>
                     </tr>
                     
@@ -100,8 +58,8 @@
                         <td>Bolsista</td>
                         <td>Apurado</td>
                         <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i> Editar</button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Excluir</button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                         </td>
                     </tr>
 
@@ -116,8 +74,8 @@
                         <td>Pagante</td>
                         <td>Apurado</td>
                         <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i> Editar</button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Excluir</button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                         </td>
                     </tr>
 
@@ -132,8 +90,8 @@
                         <td>Bolsista</td>
                         <td>Publicado no Blog</td>
                         <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i> Editar</button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Excluir</button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                         </td>
                     </tr>
 
@@ -148,8 +106,8 @@
                         <td>Pagante</td>
                         <td>Publicado no Blog</td>
                         <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i> Editar</button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Excluir</button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                         </td>
                     </tr>
                     
@@ -164,8 +122,8 @@
                         <td>Bolsista</td>
                         <td>Apurado</td>
                         <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i> Editar</button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Excluir</button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                         </td>
                     </tr>
 
@@ -180,8 +138,8 @@
                         <td>Pagante</td>
                         <td>Apurado</td>
                         <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i> Editar</button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Excluir</button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                         </td>
                     </tr>
 
@@ -196,8 +154,8 @@
                         <td>Bolsista</td>
                         <td>Publicado no Blog</td>
                         <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i> Editar</button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i> Excluir</button>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
                         </td>
                     </tr>
                 </tbody>
@@ -218,47 +176,13 @@
             </ul>
         </nav>
 
-        <section class="container spinners">
-            <div class="spinner-border text-primary" role="status">
-                <span class="visually-hidden">Loading...</span>
-            </div>
-        </section>
-
-        <section class="container alerts">        
-            <div class="alert alert-success" role="alert">
-                <span>História excluída com sucesso</span>
-            </div>
-            
-            <div class="alert alert-danger" role="alert">
-                <span>O sistema apresentou o seguinte erro:</span>
-            </div>
-        </section>
+        <?php 
+        //include('spinners.php');
+        //include('alerts.php')
+        ?>
     </main>
 
-    <footer>
-        <section class="modals">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Launch demo modal
-            </button>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                        ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </footer>
+    <?php include('footer.php')?>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>

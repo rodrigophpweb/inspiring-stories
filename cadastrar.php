@@ -516,7 +516,17 @@
                 </div>
             </div>
         </section>
-        
+
+        <section class="obs">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="mb-3">
+                        <label for="observacao" class="form-label"><strong>Observação:</strong></label>
+                        <textarea class="form-control" id="observacao" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--
         <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">

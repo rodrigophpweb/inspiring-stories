@@ -1,0 +1,8 @@
+Colocar a foto da rede social 
+Botão de upload do uso de direito de imagem
+Caixa de dialogo exclusao
+Código Unico do CRM - Campo Obrigatório
+Sistema de Usuários
+Histórico de acesso de usuários
+Banco de Dados
+Tabelas

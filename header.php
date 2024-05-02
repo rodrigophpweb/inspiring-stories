@@ -18,21 +18,10 @@
                         <a class="nav-link" href="cadastrar.php">Cadastrar</a>
                         </li>
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Filtros
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Gênero</a></li>
-                            <li><a class="dropdown-item" href="#">Idade</a></li>
-                            <li><a class="dropdown-item" href="#">Pagante | Bolsista</a></li>
-                            <li><a class="dropdown-item" href="#">Área</a></li>
-                            <li><a class="dropdown-item" href="#">Nível de Ensino</a></li>
-                            <li><a class="dropdown-item" href="#">Tipo da história</a></li>
-                            <li><a class="dropdown-item" href="#">Status</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Filtro Completo</a></li>
-                        </ul>
+                            <a class="nav-link" href="search.php">Filtros</a>
                         </li>
+                        
+                        
                         <!-- <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li> -->

@@ -18,32 +18,32 @@
             <div class="row">
                 <div class="col-6">
                     <div class="mb-3">
-                        <label for="dateContact" class="form-label">Data do Contato</label>
+                        <label for="dateContact" class="form-label"><strong>Data do Contato</strong></label>
                         <input type="text" class="form-control" id="dateContact" placeholder="00/00/000">
                     </div>
                 </div>    
                 
                 <div class="col-6">
                     <div class="mb-3">
-                        <label for="dateUpdate" class="form-label">Data de Atualização da História</label>
+                        <label for="dateUpdate" class="form-label"><strong>Data de Atualização da História</strong></label>
                         <input type="text" class="form-control" id="dateUpdate" placeholder="00/00/0000">
                     </div>
                 </div>                
 
                 <div class="mb-3">
-                    <label for="nameStudent" class="form-label">Nome Completo do Estudante</label>
+                    <label for="nameStudent" class="form-label"><strong>Nome Completo do Estudante</strong></label>
                     <input type="text" class="form-control" id="nameStudent" placeholder="Ayrton Senna da Silva">
                 </div>
 
                 <div class="col-md-4">
                     <div class="mb-3">
-                        <label for="birthday" class="form-label">Data de nascimento</label>
+                        <label for="birthday" class="form-label"><strong>Data de nascimento</strong></label>
                         <input type="text" class="form-control" id="birthday" placeholder="00/00/000">
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mb-3">
-                        <label for="gender" class="form-label">Gênero</label>
+                        <label for="gender" class="form-label"><strong>Gênero</strong></label>
                         <select class="form-select" aria-label="gender">
                             <option selected>Selecione</option>
                             <option value="1">Masculino</option>
@@ -54,7 +54,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <label for="paganteBolsista" class="form-label">Pagante | Bolsista</label><br>
+                    <label for="paganteBolsista" class="form-label"><strong>Pagante | Bolsista</strong></label><br>
                     <div class="form-check-lg form-switch form-check-inline">
                         <input class="form-check-input" type="checkbox" role="switch" id="pagante" value="pagante">
                         <label class="form-check-label" for="pagante">Pagante</label>
@@ -459,7 +459,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <label for="status" class="form-label">Status</label>
+                        <label for="status" class="form-label"><strong>Status</strong></label>
                         <select id="status" class="form-select" aria-label="Status">
                             <option selected>Selecione um dos itens</option>
                             <option value="Apurado">Apurado</option>
@@ -467,7 +467,7 @@
                         </select>
                     </div>
                     <div class="col-md-4">
-                        <label for="linkHistory" class="form-label">Link da História no Blog</label>
+                        <label for="linkHistory" class="form-label"><strong>Link da História no Blog</strong></label>
                         <input type="url" class="form-control" id="linkHistory" placeholder="https://sp.senac.br/blog/um-programador-de-sucesso/">
                     </div>
                     <div class="col-md-4">
@@ -520,10 +520,21 @@
         <section class="obs">
             <div class="container">
                 <div class="row my-5">
-                    <div class="mb-3">
+                    <div class="col-12 mb-3">
                         <label for="observacao" class="form-label"><strong>Observação:</strong></label>
                         <textarea class="form-control" id="observacao" rows="3"></textarea>
                     </div>
+
+                    <div class="col-12 my-3">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="direitoImagem" value="Áudio">
+                            <label class="form-check-label" for="direitoImagem">Permite o direito de uso de imagem</label>
+                        </div>
+                    </div>
+
+                    <div class="col-12 my-3">
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </div>    
                 </div>
             </div>
         </section>

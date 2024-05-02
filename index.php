@@ -44,5 +44,15 @@
   <button class="btn btn-lg btn-primary btn-block" type="submit">Acessar</button>
   <p class="mt-5 mb-3 text-muted">&copy; Senac São Paulo - 2024</p>
 </form>
+
+<script>
+  //Redirect page on click button to page home.php
+
+  document.querySelector('button').addEventListener('click', function(){
+    window.location.href = 'home.php';
+  });
+
+
+</script>
 </body>
 </html>

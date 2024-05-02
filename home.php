@@ -32,19 +32,21 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>20/02/2024</td>
-                        <td>Rodrigo Vieira</td>
-                        <td>Campinas</td>
-                        <td>Tecnologia da Informação</td>
-                        <td>Graduação</td>
-                        <td>CAS</td>
-                        <td>Pagante</td>
-                        <td>Publicado no Blog</td>
-                        <td>
-                            <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
-                            <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
-                        </td>
+                        
+                            <td><a href="history.php?id=1" class="">1</a></td>
+                            <td>20/02/2024</td>
+                            <td>Rodrigo Vieira</td>
+                            <td>Campinas</td>
+                            <td>Tecnologia da Informação</td>
+                            <td>Graduação</td>
+                            <td>CAS</td>
+                            <td>Pagante</td>
+                            <td>Publicado no Blog</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </a>
                     </tr>
                     
                     <tr>
@@ -165,13 +167,13 @@
         <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
                 <li class="page-item disabled">
-                    <a class="page-link">Previous</a>
+                    <a class="page-link">Anterior</a>
                 </li>
                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                 <li class="page-item"><a class="page-link" href="#">3</a></li>
                 <li class="page-item">
-                <a class="page-link" href="#">Next</a>
+                <a class="page-link" href="#">Próximo</a>
                 </li>
             </ul>
         </nav>

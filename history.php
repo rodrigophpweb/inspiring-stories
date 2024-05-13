@@ -14,11 +14,14 @@
 
     <main>
         <?php include('breadcrumb.php');?>
-
-
         <section class="datahistory">
             <div class="container">
                 <div class="row">
+                    <div class="col-12 position-relative">
+                        <div class="col-2 position-absolute top-0 end-0">
+                            <img src="assets/images/imagem.jpeg" alt="Perfil" class="img-thumbnail">
+                        </div>
+                    </div>
                     <div class="col-12 mb-5">
                         <h1>Minha História no Senac</h1>                        
                     </div>
@@ -26,12 +29,16 @@
                         <p><Strong>Nome do completo do Estudante:</Strong> Rodrigo Vieira Eufrasio da Silva</p>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-3">
                         <p><Strong>Data do contato:</Strong> 20/02/2024</p>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-3">
                         <p><Strong>Atualização da história:</Strong> 20/04/2024</p>
+                    </div>
+
+                    <div class="col-4">
+                        <p><Strong>Código único do CRM:</Strong> 12345678</p>
                     </div>
 
                     <div class="col-3">

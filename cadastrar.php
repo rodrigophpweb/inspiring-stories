@@ -16,21 +16,28 @@
 
         <section class="container formCad">
             <div class="row">
-                <div class="col-6">
+                <div class="col-4">
                     <div class="mb-3">
                         <label for="dateContact" class="form-label"><strong>Data do Contato</strong></label>
                         <input type="text" class="form-control" id="dateContact" placeholder="00/00/000">
                     </div>
                 </div>    
                 
-                <div class="col-6">
+                <div class="col-4">
                     <div class="mb-3">
                         <label for="dateUpdate" class="form-label"><strong>Data de Atualização da História</strong></label>
                         <input type="text" class="form-control" id="dateUpdate" placeholder="00/00/0000">
                     </div>
                 </div>                
 
-                <div class="mb-3">
+                <div class="col-md-4">
+                    <div class="mb-3">
+                        <label for="cadUnico" class="form-label"><strong>Código Único do CRM</strong></label>
+                        <input type="text" class="form-control" id="cadUnico" placeholder="12345678">
+                    </div>
+                </div>
+
+                <div class="col-md-12 mb-3">
                     <label for="nameStudent" class="form-label"><strong>Nome Completo do Estudante</strong></label>
                     <input type="text" class="form-control" id="nameStudent" placeholder="Ayrton Senna da Silva">
                 </div>
@@ -520,15 +527,28 @@
         <section class="obs">
             <div class="container">
                 <div class="row my-5">
-                    <div class="col-12 mb-3">
+                    <div class="col-12">
                         <label for="observacao" class="form-label"><strong>Observação:</strong></label>
                         <textarea class="form-control" id="observacao" rows="3"></textarea>
                     </div>
 
-                    <div class="col-12 my-3">
+                    <hr class="my-5">
+
+                    <div class="col-md-12">
+                        <h4>Direito de Uso de Imagem</h4>
+                    </div>
+
+                    <div class="col-md-6 my-3">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="direitoImagem" value="Áudio">
                             <label class="form-check-label" for="direitoImagem">Permite o direito de uso de imagem</label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">                        
+                        <div class="input-group mb-3">
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <label class="input-group-text" for="inputGroupFile02">Upload</label>
                         </div>
                     </div>
 

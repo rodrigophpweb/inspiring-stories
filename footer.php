@@ -3,9 +3,6 @@
         <p class="text-body-secondary text-center">Senac São Paulo - Senac na Minha História</p>
     </div>
     <section class="modals">
-        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Launch demo modal
-        </button> -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -25,3 +22,7 @@
         </div>
     </section>
 </footer>
+
+<!-- Modal Variable
+https://getbootstrap.com/docs/5.3/components/modal/#varying-modal-content:~:text=%3C/div%3E-,Varying%20modal%20content,-Have%20a%20bunch
+-->

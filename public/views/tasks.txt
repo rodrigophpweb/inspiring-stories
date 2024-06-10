@@ -1,0 +1,5 @@
+Colocar a foto da rede social - OK
+Botão de upload do uso de direito de imagem - OK
+Caixa de dialogo exclusão - Ok
+Código Unico do CRM - Campo obrigatório - OK
+Histórico de acesso de usuários - OK

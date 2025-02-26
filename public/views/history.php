@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt_br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senac na Minha História</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://icons.getbootstrap.com/assets/font/bootstrap-icons.min.css">
-</head>
-<body>
-
-    <?php include('header.php')?>
+<?php include('header.php')?>
 
     <main>
         <?php include('breadcrumb.php');?>
@@ -23,7 +11,7 @@
                         </div>
                     </div>
                     <div class="col-12 mb-5">
-                        <h1>Minha História no Senac</h1>                        
+                        <h1>Senac na Minha História</h1>                        
                     </div>
                     <div class="col-12">
                         <p><Strong>Nome do completo do Estudante:</Strong> Rodrigo Vieira Eufrasio da Silva</p>
@@ -202,7 +190,7 @@
                 <li class="page-item">
                 <a class="page-link" href="#">Next</a>
                 </li>
-            </ul>
+            </ol>
         </nav>
 
         <section class="container spinners">
@@ -234,7 +222,6 @@
             $('.infotable').fadeIn();
         });
     });
-
 </script>
 </body>
 </html>

@@ -25,4 +25,5 @@
 
 <!-- Modal Variable
 https://getbootstrap.com/docs/5.3/components/modal/#varying-modal-content:~:text=%3C/div%3E-,Varying%20modal%20content,-Have%20a%20bunch
+
 -->

@@ -31,13 +31,13 @@
     <link href="https://getbootstrap.com/docs/4.3/examples/sign-in/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-    <form class="form-signin">
+    <form class="form-signin" action="controller.php" method="POST">
   <img class="mb-4" src="https://www.sp.senac.br/o/senac-theme/images/logo_senac_default.png" alt="" width="125">
-  <h1 class="h3 mb-3 font-weight-normal">Histórias Inspiradoras</h1>
+  <h1 class="h3 mb-3 font-weight-normal">Senac na Minha História</h1>
   <label for="inputEmail" class="sr-only">E-mail</label>
-  <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus>
+  <input name="username" type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus>
   <label for="inputPassword" class="sr-only">Senha</label>
-  <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+  <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
   <div class="checkbox mb-3">
     <label><input type="checkbox" value="remember-me"> Lembrar Senha</label>
   </div>
@@ -47,12 +47,9 @@
 
 <script>
   //Redirect page on click button to page home.php
-
   document.querySelector('button').addEventListener('click', function(){
     window.location.href = 'home.php';
   });
-
-
 </script>
 </body>
 </html>

@@ -213,7 +213,7 @@
                             <li>
                                 <input class="form-control" type="text" placeholder="Digite aqui...">
                             </li>
-                        </ul>
+                        </ol>
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -609,7 +609,7 @@
                 <li class="page-item">
                 <a class="page-link" href="#">Next</a>
                 </li>
-            </ul>
+            </ol>
         </nav>
 
         <section class="container spinners">

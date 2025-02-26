@@ -4,7 +4,7 @@
 ?>
     <main>
         <?php include('breadcrumb.php');?>
-        <form method="POST">
+        <form method="POST" action="">
             <section class="container formCad">
                 <div class="row">
                     <div class="col-4">
@@ -54,15 +54,22 @@
                     </div>
 
                     <div class="col-md-4">
-                        <label for="paganteBolsista" class="form-label"><strong>Pagante | Bolsista</strong></label><br>
-                        <div class="form-check form-switch form-check-inline">
-                            <input class="form-check-input" type="checkbox" role="switch" id="pagante" name="pagante" value="1">
-                            <label class="form-check-label" for="pagante">Pagante</label>
-                        </div>
-                        <div class="form-check form-switch form-check-inline">
-                            <input class="form-check-input" type="checkbox" role="switch" id="bolsista" name="bolsista" value="2">
-                            <label class="form-check-label" for="bolsista">Bolsista</label>
-                        </div>
+                        <label for="paganteBolsista" class="form-label">
+                            <strong>Pagante | Bolsista</strong>
+                        </label>
+                        <br>
+                        <?php
+                            $options = [
+                                'pagante' => ['label' => 'Pagante', 'value' => 1],
+                                'bolsista' => ['label' => 'Bolsista', 'value' => 2]
+                            ];
+                            foreach ($options as $id => $data): 
+                        ?>
+                            <div class="form-check form-switch form-check-inline">
+                                <input class="form-check-input" type="checkbox" role="switch" id="<?php echo $id; ?>" name="<?php echo $id; ?>" value="<?php echo $data['value']; ?>">
+                                <label class="form-check-label" for="<?php echo $id; ?>"><?php echo $data['label']; ?></label>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
 
                     <div class="col-md-12 mt-4">
@@ -116,15 +123,16 @@
                     <div class="row">
                         <div class="col-md-4">
                             <label for="status" class="form-label"><strong>Status</strong></label>
-                            <select id="status" class="form-select" aria-label="Status">
+                            <select name="status" id="status" class="form-select" aria-label="Status">
                                 <option selected>Selecione um dos itens</option>
-                                <option value="Apurado">Apurado</option>
-                                <option value="Publicado">Publicado</option>
+                                <option value="0">Não Apurado</option>
+                                <option value="1">Apurado</option>
+                                <option value="2">Publicado</option>
                             </select>
                         </div>
                         <div class="col-md-4">
                             <label for="linkHistory" class="form-label"><strong>Link da História no Blog</strong></label>
-                            <input type="url" class="form-control" id="linkHistory" placeholder="https://sp.senac.br/blog/um-programador-de-sucesso/">
+                            <input name="linkHistory" type="url" class="form-control" id="linkHistory" placeholder="https://sp.senac.br/blog/um-programador-de-sucesso/">
                         </div>
                         <div class="col-md-4">
                             <h4>Outros Usos</h4>
@@ -180,7 +188,7 @@
                     <div class="row my-5">
                         <div class="col-12">
                             <label for="observacao" class="form-label"><strong>Observação:</strong></label>
-                            <textarea class="form-control" id="observacao" rows="3"></textarea>
+                            <textarea name="observacao" class="form-control" id="observacao" rows="3"></textarea>
                         </div>
 
                         <hr class="my-5">

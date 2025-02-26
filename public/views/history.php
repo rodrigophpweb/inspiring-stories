@@ -14,31 +14,31 @@
                         <h1>Senac na Minha História</h1>                        
                     </div>
                     <div class="col-12">
-                        <p><Strong>Nome do completo do Estudante:</Strong> Rodrigo Vieira Eufrasio da Silva</p>
+                        <p><strong>Nome do completo do Estudante:</strong> Rodrigo Vieira Eufrasio da Silva</p>
                     </div>
 
                     <div class="col-3">
-                        <p><Strong>Data do contato:</Strong> 20/02/2024</p>
+                        <p><strong>Data do contato:</strong> 20/02/2024</p>
                     </div>
 
                     <div class="col-3">
-                        <p><Strong>Atualização da história:</Strong> 20/04/2024</p>
+                        <p><strong>Atualização da história:</strong> 20/04/2024</p>
                     </div>
 
                     <div class="col-4">
-                        <p><Strong>Código único do CRM:</Strong> 12345678</p>
+                        <p><strong>Código único do CRM:</strong> 12345678</p>
                     </div>
 
                     <div class="col-3">
-                        <p><Strong>Data de Nascimento:</Strong> 20/03/2024</p>
+                        <p><strong>Data de Nascimento:</strong> 20/03/2024</p>
                     </div>
 
                     <div class="col-3">
-                        <p><Strong>Genero:</Strong> Masculino</p>
+                        <p><strong>Genero:</strong> Masculino</p>
                     </div>
 
                     <div class="col-3">
-                        <p><Strong>Pagante | Bolsista:</Strong> Pagante</p>
+                        <p><strong>Pagante | Bolsista:</strong> Pagante</p>
                     </div>
 
                     <hr>
@@ -49,28 +49,28 @@
 
                     <div class="col-3">
                         <p>
-                            <Strong><i class="bi bi-facebook"></i> Facebook:</Strong>
+                            <strong><i class="bi bi-facebook"></i> Facebook:</strong>
                             <a href="#">rodrigo.vieira.eufrasio</a>
                         </p>
                     </div>
 
                     <div class="col-3">
                         <p>
-                            <Strong><i class="bi bi-instagram"></i> Instagram:</Strong>
+                            <strong><i class="bi bi-instagram"></i> Instagram:</strong>
                             <a href="#">rodrigo.vieira.eufrasio</a>
                         </p>
                     </div>
 
                     <div class="col-3">
                         <p>
-                            <Strong><i class="bi bi-linkedin"></i> LinkedIn:</Strong>
+                            <strong><i class="bi bi-linkedin"></i> LinkedIn:</strong>
                             <a href="#">rodrigo.vieira.eufrasio</a>
                         </p>
                     </div>
 
                     <div class="col-3">
                         <p>
-                            <Strong><i class="bi bi-tiktok"></i> TikTok:</Strong>
+                            <strong><i class="bi bi-tiktok"></i> TikTok:</strong>
                             <a href="#">rodrigo.vieira.eufrasio</a>
                         </p>
                     </div>
@@ -177,37 +177,6 @@
                 </div>
             </div>
         </section>
-        
-        <!--
-        <nav aria-label="Page navigation example">
-            <ul class="pagination justify-content-center">
-                <li class="page-item disabled">
-                    <a class="page-link">Previous</a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-                </li>
-            </ol>
-        </nav>
-
-        <section class="container spinners">
-            <div class="spinner-border text-primary" role="status">
-                <span class="visually-hidden">Loading...</span>
-            </div>
-        </section>
-
-        <section class="container alerts">        
-            <div class="alert alert-success" role="alert">
-                <span>História excluída com sucesso</span>
-            </div>
-            
-            <div class="alert alert-danger" role="alert">
-                <span>O sistema apresentou o seguinte erro:</span>
-            </div>
-        </section>-->
     </main>
 
     <?php include('footer.php');?>
@@ -215,13 +184,5 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script>
-    $(document).ready(function() {
-        $("#dateContact, #dateUpdate, #birthday").datepicker();
-        $('.form-label').change(function(){
-            $('.infotable').fadeIn();
-        });
-    });
-</script>
 </body>
 </html>

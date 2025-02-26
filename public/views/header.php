@@ -37,7 +37,7 @@ $welcome = "Bem-vindo, " . $_SESSION['username'] . "!";
                                     <a class="nav-link active" aria-current="page" href="home.php">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="add.php">Cadastrar</a>
+                                    <a class="nav-link" href="form.php">Cadastrar</a>
                                 </li>
 
                                 <li class="nav-item dropdown">
